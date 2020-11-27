@@ -3,14 +3,14 @@ Home Assistant: LG SmartThinQ Component
 
 A [Home Assistant][hass] component for controlling/monitoring LG devices
 (currently HVAC & Dishwasher) via their SmartThinQ platform, based on
-[WideQ][].  The current version of the component requires Home Assistant 0.96
+[WideQ][] (changed to Gladhorn's fork to work with the V2 api, this repo should also be installable through HACS).  The current version of the component requires Home Assistant 0.96
 or later.
 
 You can install this component with [HACS][].
 Add the "custom repository" `sampsyo/hass-smartthinq` as an integration.
 
 [hass]: https://home-assistant.io
-[wideq]: https://github.com/sampsyo/wideq
+[wideq]: https://github.com/gladhorn/wideq
 [hacs]: https://github.com/hacs/integration
 
 You can also install it manually:
